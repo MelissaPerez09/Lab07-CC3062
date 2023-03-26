@@ -20,5 +20,8 @@ module.exports = {
     'prettier'
   ],
   rules: {
+    "prettier/prettier": ["warn"],
+    "semi": ["error", "never"],
+    "max-len" : ["warn", {"code":120}]
   },
 };
